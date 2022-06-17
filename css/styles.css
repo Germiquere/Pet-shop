@@ -1,0 +1,340 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html{
+    font-size: 13px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    /* width: 1024px;
+    margin: auto; */
+    min-width: 400px;
+    
+}
+a{
+    text-decoration: none;
+}
+/* a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+.header-arriba{
+    background-color: #222222;
+}
+    .header-abajo-nav ul li a{
+        color: white;
+        
+    }
+.header-abajo{
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+}
+    .header-abajo-nav ul{
+        display: flex;
+    }
+.banner-boton{
+    background-color: #F0A83E;
+    color: white;
+} */
+/* *******************footer********* */
+/* .suscribe-form{
+    background-color: #F0A83E;
+    height: 57px;
+}
+.suscribe-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    .text-and-img__suscribe-form{
+        display: flex;
+        align-items: center;  
+    }
+        .img__text-and-img{
+            margin-top: 4px;
+            margin-left: 23px;
+            margin-right: 10px;
+        }
+        .text__text-and-img{
+            color: white;
+            font-size: 20px;
+        }
+    .inputs__suscribe-form{
+        display: flex;
+    }
+        .suscribe-form-mail{
+            display: block;
+            height: 40px;
+            width: 270px;
+            border-radius: 15px;
+            border: none;
+            margin-right: 5px;
+        }
+        .suscribe-form-mail::placeholder{
+                color: #A0A0A0;
+                padding-left: 8px;
+                font-size: 9px;
+            }
+        .suscribe-from-submit{
+            border-radius: 15px;
+            background-color: #3C2313;
+            color: white;
+            border: none;
+            padding: 10px;
+            margin-right: 47px;
+        }
+.datos-and-logo{
+    background-color: #3C2313;
+    height: 281px;
+
+}
+    .cards__datos-and-logo{
+        display: flex;
+        
+        justify-content: space-between;
+        align-items: center;
+    }
+   
+        .card-footer{
+            
+            margin: 20px 0px 20px 70px;
+             display: flex;
+           
+    
+        }
+        
+            .text__card-footer{
+                margin: 0px 0px 0px 25px;
+                color: white;
+                font-size: 20px;
+                letter-spacing: 1px;
+               
+            }
+                .text__card-footer p{
+                    color: #8A8787;
+                    font-size: 10px;
+                    letter-spacing: 0px; 
+               }
+    .logo-footer{
+        margin: 0px 70px 0px 0px;
+    }
+.footer-bottom{
+    height: 20px;
+    background-color: #222222;
+    text-align: center;
+}
+   
+   
+    .rights__footer{ 
+        color: white;
+        font-size: 10px;
+        line-height: 20px;
+        
+       
+    } */
+
+
+     /* ******** HEADER ******* */
+     .header{
+        
+       
+        display: flex;
+        flex-direction: column;
+     }
+     
+     .header-arriba{
+        display: none;
+     }
+     .header-abajo{
+        display: flex; 
+        justify-content: space-around;
+        align-items: center;
+        background-color: #F0A83E;
+        padding: 18px 0px;
+     }
+     .header-abajo-nav{
+        display: none;
+     }
+     .menu-hambur{
+        font-size: 20px;
+        color: #FFFFFF;
+
+     }
+     
+    /* ******** MAIN ******* */
+
+
+    .banner{
+        height: 440px;
+        width: 100%;
+        background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left;
+     }
+     .banner-texto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       padding-top: 148px;
+     }
+     .banner-texto h1{
+        padding: 12px 38px;
+        background-color: #FFFFFF;
+        color: #3C2313;
+        border-radius: 5px;
+
+     }
+     .banner-texto p{
+        color: #3C2313;
+        padding: 12px 0px;
+     }
+     .banner-texto a{
+        padding: 15px 23px;
+        background-color: #F0A83E;
+        color: #FFFFFF;
+     }
+     .productos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
+    
+     .productos h2{
+        width: 212px;
+        text-align: center;
+        color: #3C2313;
+        margin-bottom: 26px ;
+     }
+     .paw{
+        width: 90px;
+        margin: 23px 0px 9px 0px;
+     }
+     .productos-categorias-link a{
+        padding: 0px 21px 43px 21px;
+     }
+     .cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
+     .card{
+        text-align: center;
+     }
+     .card h4{
+        color: #3C2313;
+     }
+    .card div h4 {
+        color: #F0A83E;
+        margin: 5px 0px 32px 0px;
+     }
+    .form{
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+        
+    }
+    .form h2{
+        margin-bottom: 16px;
+        font-size: 40px;
+        color: #3C2313;
+        
+    }
+    .input__form__container{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 48px;
+
+    }
+    .input__form__container input{
+        margin-bottom:5px ;
+        width: 290px;
+        height: 40px;
+        border-radius: 15px;
+        background-color: #3C2313;
+        color: #AB9C9C;
+        border: none;
+    }
+    .input__form__container input::placeholder{
+        padding-left: 5px;
+        
+    }
+    .buttons__form__container{
+        margin-bottom: 45px;
+        
+    }
+    .input-button__form{
+        margin: 0px 3px;
+        /* padding: 13px 75px; */
+        border: none;
+        color: #FFFFFF;
+        width: 190px;
+        height: 45px;
+        
+        
+        border-radius: 25px;
+    }
+    .input-coloruno{
+        background-color: #8A8787;
+    }
+    .input-colordos{
+        background-color: #F0A83E;
+    }
+     /* ******** FOOTER ******* */
+    .footer{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .suscribe-form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        background-color: #F0A83E;
+    }
+    .text-and-img__suscribe-form{
+        display: flex;
+        align-items: center;
+        
+        
+    }
+    .text__text-and-img{
+        padding: 0px 24px;
+        color: #FFFFFF;
+    }
+    .inputs__suscribe-form{
+        margin-bottom: 10px;
+    }
+   .suscribe-form-mail{
+    height: 40px;
+    width: 260px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    margin-right: 9px;
+    border: none;
+    
+   }
+   .suscribe-from-submit{
+    height: 40px;
+    width: 100px;
+    border-radius: 15px;
+    background-color: #3C2313;
+    margin-right: 9px;
+    border: none;
+   }
+
+
+      /* ******** MEDIAS ******* */
+      /* @media (min-width:414px){
+
+      } */
