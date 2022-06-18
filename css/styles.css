@@ -182,12 +182,23 @@ li{
         background-repeat: no-repeat;
         background-size: cover;
         background-position: left;
+        display: flex;
+        justify-content: center;
+       
      }
      .banner-texto{
         display: flex;
         flex-direction: column;
         align-items: center;
-       padding-top: 148px;
+        justify-content: center;
+       /* padding-top: 148px; */
+       
+     }
+     .banner-texto h1 {
+        margin-bottom: 10px;
+     }
+     .banner-texto p{
+        display: none;
      }
      .banner-texto h1{
         padding: 12px 38px;
@@ -430,21 +441,27 @@ li{
             display: none;
     
          }
-         /*  */
+        
          .banner{
             height: calc(100vh - 83px);
             display: flex;
             flex-direction: row-reverse;
             align-items: center;
+            display: flex;
+        justify-content: right;
            
          }
          .banner-texto{
         display: flex;
         flex-direction: column;
         align-items: center;
-       padding-top: 148px;
+       
        padding-right: 22px;
      }
+      .banner-texto p{
+        display: block;
+     }
+     
      .cards{
         
         flex-direction: row;
