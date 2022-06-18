@@ -211,6 +211,9 @@ li{
         flex-direction: column;
         align-items: center;
      }
+     .productos-categorias-link a{
+        color: #666666;
+     }
     
      .productos h2{
         width: 212px;
