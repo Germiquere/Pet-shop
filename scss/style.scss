@@ -1,3 +1,325 @@
-body{
-    background: red;
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
+body{
+    
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+/* ******** HEADER ******* */
+.header{
+        
+       
+    display: flex;
+    flex-direction: column;
+ }
+ .header-arriba{
+    display: none;
+ }
+ .header-abajo{
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F0A83E;
+    padding: 18px 0px;
+ }
+ .header-abajo-nav{
+    display: none;
+ }
+ .menu-hambur{
+    font-size: 20px;
+    color: #FFFFFF;
+
+ }
+ /* ******** MAIN ******* */
+ .banner{
+    height: calc(100vh - 62px);
+    width: 100%;
+    background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    display: flex;
+    justify-content: center;
+   
+ }
+ .banner-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+ .banner-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+ }
+ .banner-texto h1 {
+    margin-bottom: 10px;
+    padding: 10px 10px;
+ }
+ .banner-texto h1{
+    background-color: #FFFFFF;
+    color: #3C2313;
+    border-radius: 5px;
+
+ }
+ .banner-texto p{
+    color: #3C2313;
+    padding: 12px 0px;
+ }
+ .banner-texto a{
+    padding: 15px 23px;
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    border-radius: 5px;
+ }
+ .productos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+ }
+ .productos-categorias-link a{
+    color: #666666;
+ }
+ .productos h2{
+    text-align: center;
+    color: #3C2313;
+    margin-bottom: 26px ;
+ }
+ .paw{
+    width: 90px;
+    margin: 23px 0px 9px 0px;
+ }
+ .productos-categorias-link a{
+    padding: 0px 21px 43px 21px;
+ }
+ .cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .card{
+    text-align: center;
+ }
+ .card h4{
+    color: #3C2313;
+ }
+ .card div h4 {
+    color: #F0A83E;
+    margin: 5px 0px 32px 0px;
+ }
+ .form{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    
+}
+.form h2{
+    margin-bottom: 16px;
+    font-size: 40px;
+    color: #3C2313;
+    
+}
+.input__form__container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 48px;
+    align-items: center;
+
+}
+.input__form__container input{
+    margin-bottom:5px ;
+    width: 220px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #3C2313;
+    color: #AB9C9C;
+    border: none;
+}
+.input__form__container input::placeholder{
+    padding-left: 5px;
+    
+}
+.buttons__form__container{
+    margin-bottom: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.input-button__form{
+    margin: 0px 3px;
+    
+    border: none;
+    color: #FFFFFF;
+    width: 190px;
+    height: 45px;
+    
+    
+    border-radius: 25px;
+}
+.input-coloruno{
+    background-color: #8A8787;
+    margin-bottom: 10px;
+}
+.input-colordos{
+    background-color: #F0A83E;
+}
+/* ******** FOOTER ******* */
+.suscribe-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+    background-color: #F0A83E;
+}
+.text-and-img__suscribe-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;   
+}
+.text__text-and-img{
+    width: 50%;
+    color: #FFFFFF;
+}
+.inputs__suscribe-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.suscribe-form-mail{
+    height: 40px;
+    width: 220px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    margin-right: 9px;
+    border: none;
+    color: #A0A0A0;
+    font-size: 10px;
+    margin-bottom: 7px;
+   }
+   .suscribe-form-mail::placeholder{
+    padding-left: 15px;
+    }
+.suscribe-from-submit{
+height: 40px;
+width: 100px;
+ border-radius: 15px;
+ background-color: #3C2313;
+ margin-right: 9px;
+ border: none;
+ color: #FFFFFF;
+ font-size: 15px;
+       }
+.cards__datos-and-logo{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ background-color: #3C2313;
+ padding: 30px 0px;
+}
+.card-footer{
+    display: flex;
+   }
+   .text__card-footer{
+    margin-left: 15px;
+    
+}
+.text__card-footer h4{
+font-size: 20px;
+color: #FFFFFF;
+}
+.text__card-footer p{
+    color: #8A8787;
+   }
+   .logo-footer a img{
+    width: 134px;
+   }
+   .footer-bottom{
+    background-color: #222222;
+    text-align: center;
+   }
+   .footer-bottom p{
+    color: #FFFFFF;
+    font-weight: 500;
+   }
+/* ******** MEDIAS ******* */
+@media (min-width:768px){
+    .header-arriba{
+        display: flex;
+        justify-content: space-between;
+        
+        align-items: center;
+        
+        padding: 2px 50px 0px 90px;
+        background-color: #222222;
+    }
+    .header-arriba a {
+        color: #F3F3F3;
+        padding: 0px 3px;
+     }
+     .header-abajo{
+        display: flex; 
+        justify-content: space-between;
+        align-items: center;
+        
+        padding: 20px 40px;
+        
+     }
+     .header-abajo-nav{
+        display: block;
+     }
+     .header-abajo-nav ul{
+        display: flex;
+     }
+     .header-abajo-nav ul li{
+        padding: 0px 10px;
+     }
+     .fa-paw{
+        padding: 0px 1px;
+     }
+     .header-abajo-nav ul li a{
+        color: white;  
+    }
+    .menu-hambur{ 
+        display: none;
+     }
+     .banner{
+        height: calc(100vh - 83px);
+     }
+     .cards{
+        flex-direction: row;
+     }
+     .card{
+        padding: 50px 11px 55px 11px;
+     }
+     .suscribe-form{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 5px 10px;
+    }
+    .cards__datos-and-logo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 23px;
+       }
+       .card-footer{
+        margin: 20px 0px 20px 70px;
+       }
+       .logo-footer{
+        order: 1; 
+     }
+     }
